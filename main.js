@@ -1,3 +1,33 @@
+const translations = {
+    es: {
+        title: "PROJECT ZOMBOID B42 CLEANER",
+        btn_select: "📁 Seleccionar Archivos",
+        header_data: "Seleccionar Datos a Borrar",
+        opt_map: "Map (Visual)",
+        opt_chunks: "Chunks (Items)",
+        opt_zombies: "Zombies (ZPop)",
+        opt_animals: "Animal Data (APop)",
+        btn_grid: "🟡 Mostrar Cuadrícula",
+        btn_delete: "🔥 BORRAR ZONA SELECCIONADA",
+        btn_clear: "🧹 Limpiar Selección",
+        instructions_title: "Instrucciones",
+        warning_claims: "Las zonas seleccionadas no detectan los claims de los jugadores."
+    },
+    en: {
+        title: "PROJECT ZOMBOID B42 CLEANER",
+        btn_select: "📁 Select Folder",
+        header_data: "Select Data to Wipe",
+        opt_map: "Map (Visual)",
+        opt_chunks: "Chunks (Items)",
+        opt_zombies: "Zombies (ZPop)",
+        opt_animals: "Animal Data (APop)",
+        btn_grid: "🟡 Show Grid",
+        btn_delete: "🔥 WIPE SELECTED ZONE",
+        btn_clear: "🧹 Clear Selection",
+        instructions_title: "Instructions",
+        warning_claims: "Selected zones do not detect player claims. Use with caution."
+    }
+};
 document.getElementById('addToFolder').addEventListener('click', async () => {
     let Coords = await getFilearr();
     if (!Coords) return;
@@ -141,3 +171,23 @@ if (window.anno) {
     window.anno.clearAnnotations();
 }
 document.getElementById('overlay').style.display = 'none';
+
+function changeLanguage(lang) {
+    document.querySelectorAll('.lang').forEach(el => {
+        const key = el.getAttribute('data-key');
+        if (translations[lang][key]) {
+            el.innerText = translations[lang][key];
+        }
+    });
+    // Guardamos la preferencia del usuario
+    localStorage.setItem('preferredLang', lang);
+}
+
+document.getElementById('btn-en').addEventListener('click', () => changeLanguage('en'));
+document.getElementById('btn-es').addEventListener('click', () => changeLanguage('es'));
+
+// Cargar idioma preferido al iniciar
+window.onload = () => {
+    const savedLang = localStorage.getItem('preferredLang') || 'es';
+    changeLanguage(savedLang);
+};

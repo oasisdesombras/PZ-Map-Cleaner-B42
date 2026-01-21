@@ -6,7 +6,10 @@ La herramienta definitiva para realizar limpiezas (wipes) selectivas de zonas de
 
 ## 🌐 Acceso Directo
 🚀 **[ACCEDER A LA HERRAMIENTA WEB AQUÍ](https://oasisdesombras.github.io/PZ-Map-Cleaner-B42/)**
-**RECOENDADO MICROSOFT EDGE PARA LA CORRECTA CARGA DE LAS ZONAS SELECCIONADAS**
+
+> [!IMPORTANT]
+> **RECOMENDADO MICROSOFT EDGE** Para la correcta carga y visualización de las zonas de mapa seleccionadas. Otros navegadores pueden experimentar problemas con los permisos de acceso a carpetas.
+
 
 ---
 

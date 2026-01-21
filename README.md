@@ -5,7 +5,7 @@ La herramienta definitiva para realizar limpiezas (wipes) selectivas de zonas de
 ---
 
 ## 🌐 Acceso Directo
-🚀 **[ACCEDER A LA HERRAMIENTA WEB AQUÍ](https://oasisdesombras.github.io/wipe-mapa-pz-beta/)**
+🚀 **[ACCEDER A LA HERRAMIENTA WEB AQUÍ](https://oasisdesombras.github.io/PZ-Map-Cleaner-B42/)**
 
 ---
 
@@ -28,7 +28,7 @@ La herramienta definitiva para realizar limpiezas (wipes) selectivas de zonas de
 ## 🛠️ Instrucciones de Uso
 
 ### Método Web (Recomendado)
-1. Entra en la [Web App](https://oasisdesombras.github.io/wipe-mapa-pz-beta/).
+1. Entra en la [Web App](https://oasisdesombras.github.io/PZ-Map-Cleaner-B42/).
 2. Selecciona las categorías de datos a borrar (Mapa, Chunks, Zombis o Animales).
 3. Selecciona el rango de celdas que deseas resetear.
 4. Aplica los cambios siguiendo los pasos en pantalla.

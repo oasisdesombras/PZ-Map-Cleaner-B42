@@ -1,0 +1,50 @@
+.footer {
+    min-height: 100px;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+  }
+
+.openseadragon-overlays-container {
+    z-index: 1000 !important;
+    pointer-events: none;
+}
+
+.openseadragon-canvas canvas:nth-child(2) {
+    filter: opacity(0%);
+}
+#statusText {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.progress {
+    background-color: #222 !important;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.7);
+    border: 1px solid #444;
+}
+
+.progress-bar {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: #fff !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+    transition: width 0.4s ease;
+}
+
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}

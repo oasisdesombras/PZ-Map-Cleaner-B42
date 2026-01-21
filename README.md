@@ -36,3 +36,45 @@ La herramienta definitiva para realizar limpiezas (wipes) selectivas de zonas de
 
 ---
 ⭐ *Desarrollado por **Oasis de Sombras** para la comunidad de Project Zomboid.*
+
+
+# 🗺️ Project Zomboid B42 - Map Cleaner B42 (Web & Script)
+
+The definitive tool for performing selective map wipes in **Build 42 Unstable**. Specifically designed to handle the new folder structure and coordinate systems introduced in B42 that broke previous B41 tools.
+
+---
+
+## 🌐 Live Access
+🚀 **[ACCESS THE WEB TOOL HERE](https://oasisdesombras.github.io/PZ-Map-Cleaner-B42/)**
+
+> [!IMPORTANT]
+> **MICROSOFT EDGE IS HIGHLY RECOMMENDED** for the correct loading and visualization of selected map zones. Other browsers may experience issues with folder access permissions.
+
+---
+
+## ✨ Key Features
+* **B42 Ready:** The only tool that correctly cleans the four new data subfolders: `/map`, `/zpop`, `/chunkdata`, and **`/apop/`**.
+* **Animal Management (New):** Optionally reset animal data (`apop`) to optimize server performance and eliminate lag caused by overpopulation.
+* **Visual Interface:** Intuitive area selection directly on the map to prevent coordinate errors.
+* **Preserve Progress:** The wipe **does not affect** the `players.db` file. Players keep their stats, skills, and equipped items.
+
+---
+
+## ⚠️ Version Notes (Beta)
+* **Claims:** Currently, the process does not differentiate between player-claimed zones. It is recommended to notify your community before performing a wipe.
+* **Animals:** When selecting animal data deletion, animals will respawn according to the zone's original spawn configuration.
+* **Safety First:** Always create a **backup** of your save folder before operating! 
+  - `Path: Saves/Multiplayer/YourServerName`
+
+---
+
+## 🛠️ How to Use
+
+### Web Method (Recommended)
+1. Open the [Web App](https://oasisdesombras.github.io/PZ-Map-Cleaner-B42/).
+2. Select the data categories you wish to delete (Map, Chunks, Zombies, or Animals).
+3. Draw the range of cells you want to reset on the map.
+4. Apply the changes following the on-screen steps.
+
+---
+⭐ *Developed by **Oasis de Sombras** for the Project Zomboid community.*
